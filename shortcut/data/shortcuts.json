@@ -1,0 +1,43 @@
+[
+  {
+    "category": "기본 편집 (Basic Editing)",
+    "shortcuts": [
+      {"keys": "Ctrl + X", "description": "한 줄 또는 선택 영역 잘라내기"},
+      {"keys": "Ctrl + C", "description": "한 줄 또는 선택 영역 복사"},
+      {"keys": "Ctrl + V", "description": "붙여넣기"},
+      {"keys": "Ctrl + Z", "description": "되돌리기 (Undo)"},
+      {"keys": "Ctrl + Y / Ctrl + Shift + Z", "description": "다시 실행 (Redo)"},
+      {"keys": "Home", "description": "현재 줄의 시작으로 이동"},
+      {"keys": "End", "description": "현재 줄의 끝으로 이동"},
+      {"keys": "Ctrl + Home", "description": "파일의 시작으로 이동"},
+      {"keys": "Ctrl + End", "description": "파일의 끝으로 이동"},
+      {"keys": "Ctrl + Left Arrow / Right Arrow", "description": "단어 단위로 커서 이동"},
+      {"keys": "Alt + Up Arrow / Down Arrow", "description": "현재 줄을 위/아래로 이동"},
+      {"keys": "Shift + Alt + Up Arrow / Down Arrow", "description": "현재 줄을 위/아래로 복사"},
+      {"keys": "Ctrl + Shift + K", "description": "현재 줄 삭제"},
+      {"keys": "Ctrl + Enter", "description": "현재 줄 아래에 새 줄 삽입"},
+      {"keys": "Ctrl + Shift + Enter", "description": "현재 줄 위에 새 줄 삽입"},
+      {"keys": "Ctrl + [ / Ctrl + ]", "description": "현재 줄 들여쓰기/내어쓰기 (Indent/Outdent)"},
+      {"keys": "Ctrl + /", "description": "한 줄 주석 토글 (Toggle Line Comment)"},
+      {"keys": "Shift + Alt + A", "description": "블록 주석 토글 (Toggle Block Comment)"},
+      {"keys": "Ctrl + Space", "description": "자동 완성 (IntelliSense) 제안 (수동 트리거)"},
+      {"keys": "Ctrl + I", "description": "코드 조각 삽입 (Snippet) (기본값)"},
+      {"keys": "Shift + Alt + F", "description": "문서 포맷팅 (Format Document)"},
+      {"keys": "Ctrl + K Ctrl + F", "description": "선택 영역 포맷팅 (Format Selection)"}
+    ]
+  },
+  {
+    "category": "탐색 (Navigation)",
+    "shortcuts": [
+      {"keys": "Ctrl + G", "description": "줄 번호로 이동 (Go to Line)"},
+      {"keys": "Ctrl + P (그리고 @ 입력)", "description": "파일 내 심볼(함수, 변수 등)로 이동 (Go to Symbol in File)"},
+      {"keys": "Ctrl + T", "description": "작업 공간 내 심볼로 이동 (Go to Symbol in Workspace)"},
+      {"keys": "F12", "description": "정의로 이동 (Go to Definition)"},
+      {"keys": "Alt + F12", "description": "정의 미리보기 (Peek Definition)"},
+      {"keys": "Shift + F12", "description": "모든 참조 보기 (Go to References)"},
+      {"keys": "Ctrl + - (백스페이스 옆)", "description": "이전 커서 위치로 이동 (Go Back)"},
+      {"keys": "Ctrl + Shift + -", "description": "다음 커서 위치로 이동 (Go Forward)"},
+      {"keys": "Ctrl + K Ctrl + C", "description": "에디터 그룹 닫기"}
+    ]
+  }
+] 
